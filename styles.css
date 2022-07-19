@@ -3,7 +3,50 @@
 /* Universal formatting: grey background, white text */
 * {
     color:white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Courier New', Courier, monospace;
     font-weight: bolder;
     background-color:grey;
+}
+
+/* h1 format */
+h1 {
+    background-color: white;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size:x-large;
+}
+
+/* p format */
+p {
+    background-color: white;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size:medium;
+}
+
+/* id & class formats */
+#id .class {
+    background-color: blue;
+    font-size:large;
+    text-align: center;
+}
+
+#id {color:white;
+}
+
+.class.two{
+    text-align: left;
+    color:red;
+}
+
+.class.three{
+    text-align: right;
+    color:white;
+}
+
+/* ancestor and child format */
+.ancestor .child {
+    background-color:blueviolet;
 }
