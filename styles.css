@@ -1,8 +1,9 @@
 /* Stylesheet for index.html */
 
+/* Universal formatting: grey background, white text */
 * {
     color:white;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
-    background-color:aqua;
+    background-color:grey;
 }
