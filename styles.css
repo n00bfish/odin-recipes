@@ -55,3 +55,10 @@ p {
 .ancestor .child {
     background-color:blueviolet;
 }
+
+/*img format */
+img {
+    height:auto;
+    width:500px;
+    
+}
