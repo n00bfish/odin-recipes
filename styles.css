@@ -1,0 +1,8 @@
+/* Stylesheet for index.html */
+
+* {
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-color:aqua;
+}
